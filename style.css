@@ -1,0 +1,33 @@
+* {
+    background-color: rgb(153, 145, 207);
+}
+
+body {
+    text-align: center;
+    margin: 50px auto;
+}
+
+h1 {
+    box-shadow: 0px 0px 4px 2px rgb(0, 0, 0);
+    margin-bottom: 40px;
+    color: white;
+    padding: 2%;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: slategray;
+    color: white;
+    box-shadow: 0px 0px 4px 2px rgb(0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+}
+
+.button :visited {
+    background-color: black;
+    color: white;
+}
+
+.button :hover {
+    background-color: white;
+}
