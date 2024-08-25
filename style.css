@@ -1,5 +1,6 @@
 * {
-    background-color: rgb(153, 145, 207);
+    background-color: rgb(228, 212, 184);
+    box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 h1 {
     box-shadow: 0px 0px 4px 2px rgb(0, 0, 0);
     margin-bottom: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 2%;
 }
 
@@ -18,16 +19,22 @@ h1 {
     border-radius: 10px;
     background-color: slategray;
     color: white;
-    box-shadow: 0px 0px 4px 2px rgb(0, 0, 0);
+    box-shadow: 0px 0px 4px 1px rgb(0, 0, 0);
     margin: 5px;
     padding: 5px;
 }
 
-.button :visited {
-    background-color: black;
-    color: white;
+div.images {
+    margin: 15px;
+    border: 3px dotted slategray;
+    float: left;
+    background-size: contain;
 }
 
-.button :hover {
-    background-color: white;
+div.images img {
+    width: 200px;
+    height: 175px;
+    overflow: hidden;
+    position: relative;
 }
+
